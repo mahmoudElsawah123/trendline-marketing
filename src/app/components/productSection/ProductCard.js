@@ -34,7 +34,7 @@ const ProductCard = ({ data }) => {
 
   return (
     <>
-      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
         <div className="hidden lg:block  bg-white border border-gray-200 rounded-lg shadow-sm ">
           <div className="relative">
             <Image
@@ -70,12 +70,12 @@ const ProductCard = ({ data }) => {
         </div>
 
         {currentItems.map((item) => (
-          <div key={item.id} className=" bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div key={item.id} className="bg-white border border-gray-200 rounded-lg shadow-sm ">
             <a href="#" className="flex justify-center">
               <Image className="p-3 rounded-t-lg w-full h-full" src={item.image} alt="product image" width={180} height={180} />
             </a>
             <div className="px-5 pb-5">
-              <div className="flex items-center mt-2.5 mb-5">
+              <div className="flex items-center justify-between md:mt-2.5 md:mb-5">
                 <div className="rating xl:rating-md md:rating-sm sm:rating-md rating-sm">
                   {[...Array(5)].map((_, index) => (
                     <input key={index} type="radio" name="rating-4" className="mask mask-star-2 bg-[#1A4B7B]" />

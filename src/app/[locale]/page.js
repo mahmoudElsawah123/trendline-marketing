@@ -1,5 +1,4 @@
-import React from "react";
-import Navbar from "../components/navbar/Navbar";
+import React, { Suspense } from "react";
 import Banner from "../components/banner/Banner";
 import FirstBreadCrumb from "../components/Breadcrumbs/FirstBreadCrumb";
 import ProductContainer from "../components/productSection/ProductContainer";
@@ -18,10 +17,14 @@ const page = async({params}) => {
         <FirstBreadCrumb/>
       </section>
       <section>
-        <CardSliderContainer param={param.locale}/>
+        <Suspense>
+            <CardSliderContainer param={param.locale}/>
+        </Suspense>
       </section>
       <section>
-        <ProductContainer param={param.locale}/>
+        <Suspense>
+            <ProductContainer param={param.locale}/>
+        </Suspense>
       </section>
     </>
   );
