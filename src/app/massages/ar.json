@@ -1,0 +1,46 @@
+{
+  "Banner": {
+    "title": "حقائب",
+    "logoAlt": "شعار الشركة",
+    "navLinks": {
+      "home": "الرئيسية",
+      "categories": "الفئات",
+      "about": "من نحن",
+      "contact": "اتصل بنا",
+      "faqs": "الأسئلة الشائعة"
+    },
+    "actions": {
+      "notifications": "الإشعارات",
+      "cart": "عرض سلة التسوق",
+      "language": "اختر اللغة",
+      "profile": "ملف المستخدم"
+    },
+    "drawerButton": "فتح قائمة التنقل",
+    "drawerLinks": {
+      "home": "الرئيسية",
+      "categories": "الفئات",
+      "about": "من نحن",
+      "contact": "اتصل بنا",
+      "faqs": "الأسئلة الشائعة"
+    }
+  },
+  "FirstBreadCrumb" : {
+    "Home" : "الرئيسية",
+    "All_Categories" : "جميع التصنيفات",
+    "Bags" : "الحقائب"
+  },
+"Filter": {
+    "Filter_Option": "خيار الفلتر",
+    "Clear_All": "مسح الكل",
+    "material": "المواد",
+    "Color": "اللون",
+    "Size": "المقاس",
+    "Price": "السعر",
+    "Btn": "أضف إلى السلة",
+    "Showing": "عرض",
+    "of": "من",
+    "results": "النتائج",
+    "All" : "تحديد الكل",
+    "Material" : "القائمه"
+  }
+}

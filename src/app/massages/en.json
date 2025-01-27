@@ -1,0 +1,46 @@
+{
+    "Banner": {
+      "title": "Bags",
+      "logoAlt": "Company Logo",
+      "navLinks": {
+        "home": "Home",
+        "categories": "Categories",
+        "about": "About Us",
+        "contact": "Contact Us",
+        "faqs": "FAQs"
+      },
+      "actions": {
+        "notifications": "Notifications",
+        "cart": "View shopping cart",
+        "language": "Select language",
+        "profile": "User profile"
+      },
+      "drawerButton": "Open navigation menu",
+      "drawerLinks": {
+        "home": "Home",
+        "categories": "Categories",
+        "about": "About Us",
+        "contact": "Contact Us",
+        "faqs": "FAQs"
+      }
+    },
+    "FirstBreadCrumb" : {
+      "Home" : "Home",
+      "All_Categories" : "All Categories",
+      "Bags" : "Bags"
+    },
+    "Filter" : {
+      "Filter_Option" : "Filter Option",
+      "Clear_All" : "Clear All",
+      "material" : "Material",
+      "Color" : "Color",
+      "Size" : "Size",
+      "Price" : "Price",
+      "Btn" : "Add To Cart",
+      "Showing" : "Showing",
+      "of" : "of",
+      "results" : "results",
+      "All" : "All",
+      "Material" : "Material"
+    }
+  }
