@@ -35,7 +35,7 @@ const ProductCard = ({ data }) => {
   return (
     <>
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
-        <div className="hidden lg:block  bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+        <div className="hidden lg:block  bg-white border border-gray-200 rounded-lg shadow-sm ">
           <div className="relative">
             <Image
               className="p-3 rounded-t-lg w-full h-full"

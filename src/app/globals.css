@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: #ffffff;
+  --foreground: #22262A;
+}
+
 *{
   box-sizing: border-box;
   padding: 0;
@@ -11,6 +16,7 @@ html{
   scroll-behavior: smooth !important;
 }
 body {
+  background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden !important;
   color: #020202;
