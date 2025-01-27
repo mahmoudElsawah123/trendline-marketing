@@ -75,6 +75,7 @@ const CardSlider = ({ data }) => {
                     height={200}
                     src={item.image}
                     alt={item.name}
+                    loading="lazy"
                     className="object-cover" // Ensure the image fits well
                   />
                 </div>

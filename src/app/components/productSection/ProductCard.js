@@ -72,7 +72,7 @@ const ProductCard = ({ data }) => {
         {currentItems.map((item) => (
           <div key={item.id} className="bg-white border border-gray-200 rounded-lg shadow-sm ">
             <a href="#" className="flex justify-center">
-              <Image className="p-3 rounded-t-lg w-full h-full" src={item.image} alt="product image" width={180} height={180} />
+              <Image className="p-3 rounded-t-lg w-full h-full" src={item.image} loading="lazy" alt="product image" width={180} height={180} />
             </a>
             <div className="px-5 pb-5">
               <div className="flex items-center justify-between md:mt-2.5 md:mb-5">
