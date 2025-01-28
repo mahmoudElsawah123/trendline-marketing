@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ProductFilter from "./ProductFilter";
 import ProductCard from "./ProductCard";
 import { useTranslations } from "next-intl";
@@ -31,7 +31,7 @@ const ProductLang = ({data , subFilterCats}) => {
             {subFilterCats.total} {t('results')}
           </span>
         </div>
-        <ProductCard data={data} />
+        <ProductCard data={data} />        
       </div>
     </div>
   );

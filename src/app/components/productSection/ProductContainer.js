@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import ProductFilter from './ProductFilter'
 import ProductCard from './ProductCard'
 import ProductLang from './ProductLang'
@@ -19,7 +19,7 @@ const ProductContainer = async({param}) => {
   const subFilterCats = data.data.sub_categories.meta
   return (
     <div className='container my-10'>
-     <ProductLang data={data} subFilterCats={subFilterCats}/>
+         <ProductLang data={data} subFilterCats={subFilterCats}/>      
     </div>
   )
 }

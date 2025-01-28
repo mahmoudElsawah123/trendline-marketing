@@ -3,7 +3,7 @@ import React, { useEffect, useState, useCallback, useLayoutEffect, memo } from "
 import Image from "next/image";
 import { AiOutlineShopping } from "react-icons/ai";
 import { Pagination } from "uiw";
-import { useParams, useSearchParams } from "next/navigation";
+import {useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 
 const ProductCard = ({ data }) => {

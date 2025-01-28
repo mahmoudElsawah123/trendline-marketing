@@ -17,9 +17,7 @@ const page = async({params}) => {
         <FirstBreadCrumb/>
       </section>
       <section>
-        <Suspense>
-            <CardSliderContainer param={param.locale}/>
-        </Suspense>
+          <CardSliderContainer param={param.locale}/>
       </section>
       <section>
         <Suspense>
