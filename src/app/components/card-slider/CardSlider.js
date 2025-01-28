@@ -90,7 +90,7 @@ const CardSlider = ({ data }) => {
       </Slider>
 
       {/* Navigation buttons */}
-      <div className="flex justify-center items-center gap-5 mt-5">
+      <div className="flex justify-center items-center gap-5 mt-10">
    
         <button
           className="w-[50px] h-[50px] rounded-[15px] bg-[#E8EDF2] flex justify-center items-center"

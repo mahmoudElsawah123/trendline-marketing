@@ -18,7 +18,7 @@ const ProductContainer = async({param}) => {
   const data = await res.json()
   const subFilterCats = data.data.sub_categories.meta
   return (
-    <div className='container'>
+    <div className='container my-10'>
      <ProductLang data={data} subFilterCats={subFilterCats}/>
     </div>
   )

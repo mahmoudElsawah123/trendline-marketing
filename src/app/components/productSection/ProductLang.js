@@ -15,11 +15,18 @@ const ProductLang = ({data , subFilterCats}) => {
           {t('Clear_All')}
           </span>
         </div>
-        <ProductFilter data={data} />
+        <div className="flex flex-wrap justify-between items-center">
+        <span className="text-[17px] text-secondary md:hidden block">
+          {t('Showing')} {subFilterCats.current_page}-{subFilterCats.per_page} {t('of')}
+            {subFilterCats.total} {t('results')}
+          </span>
+          <ProductFilter data={data} />
+
+        </div>
       </div>
       <div className="flex-1">
         <div>
-          <span className="text-[17px] text-secondary">
+          <span className="text-[17px] text-secondary md:block hidden">
           {t('Showing')} {subFilterCats.current_page}-{subFilterCats.per_page} {t('of')}
             {subFilterCats.total} {t('results')}
           </span>
