@@ -97,13 +97,16 @@ const ProductCard = ({ data }) => {
       </div>
 
       <div className="pagination mt-10">
+        {filterData.length == 0 ? null : 
         <Pagination
-          current={currentPage}
-          pageSize={itemsPerPage}
-          total={filterData.length}
-          divider
-          onChange={handlePageChange}
-        />
+        current={currentPage}
+        pageSize={itemsPerPage}
+        total={filterData.length}
+        divider
+        onChange={handlePageChange}
+      />
+        }
+        
       </div>
     </>
   );
