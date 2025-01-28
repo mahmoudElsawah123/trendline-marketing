@@ -44,7 +44,7 @@ const ProductCard = ({ data }) => {
               width={180}
               height={180}
             />
-            <button className="text-white xl:flex hidden gap-2 items-center justify-center text-[16px] w-[270px] m-auto absolute bottom-3 left-1/2 transform -translate-x-1/2 bg-[#1A4B7B] hover:bg-[#1a2d7b] focus:ring-4 focus:outline-none font-medium rounded-lg px-3 py-2.5">
+            <button className="text-white xl:flex hidden gap-2 items-center justify-center text-[16px] w-[250px] m-auto absolute bottom-3 left-1/2 transform -translate-x-1/2 bg-[#1A4B7B] hover:bg-[#1a2d7b] focus:ring-4 focus:outline-none font-medium rounded-lg px-3 py-2.5">
             {t('Btn')}
               <AiOutlineShopping size={20} />
             </button>
